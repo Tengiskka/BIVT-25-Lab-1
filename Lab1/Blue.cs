@@ -7,7 +7,7 @@
             bool answer = false;
 
             // code here
-
+            answer = (a > 0 && b > 0) || (a < 0 && b < 0);
             // end
 
             return answer;
@@ -17,7 +17,7 @@
             bool answer = false;
 
             // code here
-
+            answer = d % 0.0001;
             // end
 
             return answer;
@@ -27,7 +27,7 @@
             bool answer = false;
 
             // code here
-
+            
             // end
 
             return answer;
@@ -84,4 +84,5 @@
             return answer;
         }
     }
+
 }
